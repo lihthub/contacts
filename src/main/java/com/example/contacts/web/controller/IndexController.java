@@ -1,11 +1,11 @@
-package pers.contacts.web.controller;
+package com.example.contacts.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import pers.contacts.core.security.UserContext;
-import pers.contacts.util.I18nUtils;
+import com.example.contacts.manager.security.UserContext;
+import com.example.contacts.util.I18nUtils;
 
 /**
  * 首页、用户登录页

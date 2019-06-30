@@ -1,4 +1,4 @@
-package pers.contacts.service;
+package com.example.contacts.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import pers.contacts.dao.LinkmanDao;
-import pers.contacts.entity.Linkman;
+import com.example.contacts.dao.LinkmanDao;
+import com.example.contacts.entity.Linkman;
 
 @Service
 public class LinkmanService {

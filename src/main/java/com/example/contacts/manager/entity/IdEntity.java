@@ -1,4 +1,4 @@
-package pers.contacts.core.entity;
+package com.example.contacts.manager.entity;
 
 import java.io.Serializable;
 

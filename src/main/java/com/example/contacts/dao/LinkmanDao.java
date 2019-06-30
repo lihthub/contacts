@@ -1,9 +1,9 @@
-package pers.contacts.dao;
+package com.example.contacts.dao;
 
 import java.util.List;
 
-import pers.contacts.core.dao.BaseDao;
-import pers.contacts.entity.Linkman;
+import com.example.contacts.entity.Linkman;
+import com.example.contacts.manager.dao.BaseDao;
 
 public interface LinkmanDao extends BaseDao<Linkman, Long> {
 

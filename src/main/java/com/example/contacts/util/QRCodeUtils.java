@@ -1,4 +1,4 @@
-package pers.contacts.util;
+package com.example.contacts.util;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

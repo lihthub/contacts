@@ -1,4 +1,4 @@
-package pers.contacts.core.dao;
+package com.example.contacts.manager.dao;
 
 import java.io.Serializable;
 import java.util.List;

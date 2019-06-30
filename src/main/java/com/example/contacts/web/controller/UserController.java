@@ -1,4 +1,4 @@
-package pers.contacts.web.controller;
+package com.example.contacts.web.controller;
 
 import java.io.IOException;
 import java.util.Date;
@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import pers.contacts.core.security.Md5PasswordService;
-import pers.contacts.core.security.UserContext;
-import pers.contacts.entity.User;
-import pers.contacts.service.UserService;
-import pers.contacts.util.QRCodeUtils;
-import pers.contacts.util.VCardUtils;
-import pers.contacts.web.AjaxResult;
+import com.example.contacts.entity.User;
+import com.example.contacts.manager.security.Md5PasswordService;
+import com.example.contacts.manager.security.UserContext;
+import com.example.contacts.service.UserService;
+import com.example.contacts.util.QRCodeUtils;
+import com.example.contacts.util.VCardUtils;
+import com.example.contacts.web.AjaxResult;
 
 /**
  * 用户

@@ -3,8 +3,8 @@ package contacts;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import pers.contacts.dao.UserDao;
-import pers.contacts.service.UserService;
+import com.example.contacts.dao.UserDao;
+import com.example.contacts.service.UserService;
 
 public class SpringTest {
 

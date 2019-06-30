@@ -1,4 +1,4 @@
-package pers.contacts.core.security;
+package com.example.contacts.manager.security;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 

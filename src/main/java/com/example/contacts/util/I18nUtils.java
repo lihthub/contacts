@@ -1,4 +1,4 @@
-package pers.contacts.util;
+package com.example.contacts.util;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

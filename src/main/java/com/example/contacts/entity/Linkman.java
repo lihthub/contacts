@@ -1,4 +1,4 @@
-package pers.contacts.entity;
+package com.example.contacts.entity;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -12,10 +12,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import net.sourceforge.pinyin4j.PinyinHelper;
+import com.example.contacts.common.Relationship;
+import com.example.contacts.manager.entity.IdEntity;
 
-import pers.contacts.common.Relationship;
-import pers.contacts.core.entity.IdEntity;
+import net.sourceforge.pinyin4j.PinyinHelper;
 
 /**
  * 联系人

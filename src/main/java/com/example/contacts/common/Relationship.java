@@ -1,6 +1,6 @@
-package pers.contacts.common;
+package com.example.contacts.common;
 
-import pers.contacts.util.I18nUtils;
+import com.example.contacts.util.I18nUtils;
 
 /**
  * 关系

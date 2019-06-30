@@ -1,4 +1,4 @@
-package pers.contacts.web;
+package com.example.contacts.web;
 
 import java.util.HashMap;
 

@@ -5,7 +5,7 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="pers.contacts">
+    <context:component-scan base-package="com.example.contacts">
     	<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     
@@ -41,7 +41,7 @@
 	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
 		<property name="converters">
 			<set>
-				<bean class="pers.contacts.core.converter.DateConverter"/>
+				<bean class="com.example.contacts.manager.converter.DateConverter"/>
 			</set>
 		</property>
 	</bean>

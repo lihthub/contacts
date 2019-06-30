@@ -1,9 +1,9 @@
-package pers.contacts.core.security;
+package com.example.contacts.manager.security;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 
-import pers.contacts.entity.User;
+import com.example.contacts.entity.User;
 
 /**
  * 用户上下文

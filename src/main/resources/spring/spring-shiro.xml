@@ -18,7 +18,7 @@
     
     <!-- Define the Shiro Realm implementation you want to use to connect to your back-end -->
 	<!-- security datasource: -->
-	<bean id="shiroDbRealm" class="pers.contacts.core.security.ShiroDbRealm">
+	<bean id="shiroDbRealm" class="com.example.contacts.manager.security.ShiroDbRealm">
 		<property name="credentialsMatcher" ref="passwordMatcher"/>
 	</bean>
 	
@@ -27,7 +27,7 @@
 		<property name="passwordService" ref="md5PasswordService"/>
 	</bean>
 	
-	<bean id="md5PasswordService" class="pers.contacts.core.security.Md5PasswordService"/>
+	<bean id="md5PasswordService" class="com.example.contacts.manager.security.Md5PasswordService"/>
 
     <!-- Post processor that automatically invokes init() and destroy() methods -->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>

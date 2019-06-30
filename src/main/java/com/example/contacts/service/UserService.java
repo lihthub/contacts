@@ -1,11 +1,11 @@
-package pers.contacts.service;
+package com.example.contacts.service;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import pers.contacts.dao.UserDao;
-import pers.contacts.entity.User;
+import com.example.contacts.dao.UserDao;
+import com.example.contacts.entity.User;
 
 @Service
 public class UserService {

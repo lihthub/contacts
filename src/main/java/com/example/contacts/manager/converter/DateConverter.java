@@ -1,4 +1,4 @@
-package pers.contacts.core.converter;
+package com.example.contacts.manager.converter;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

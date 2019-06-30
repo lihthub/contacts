@@ -2,8 +2,8 @@ package contacts;
 
 import java.util.Date;
 
-import pers.contacts.util.QRCodeUtils;
-import pers.contacts.util.VCardUtils;
+import com.example.contacts.util.QRCodeUtils;
+import com.example.contacts.util.VCardUtils;
 
 public class QRCodeTest {
 

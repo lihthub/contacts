@@ -1,4 +1,4 @@
-package pers.contacts.entity;
+package com.example.contacts.entity;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import pers.contacts.core.entity.IdEntity;
+import com.example.contacts.manager.entity.IdEntity;
 
 /**
  * 用户

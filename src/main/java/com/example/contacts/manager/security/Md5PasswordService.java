@@ -1,4 +1,4 @@
-package pers.contacts.core.security;
+package com.example.contacts.manager.security;
 
 import org.apache.shiro.authc.credential.PasswordService;
 import org.apache.shiro.crypto.hash.Md5Hash;

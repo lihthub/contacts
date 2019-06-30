@@ -1,4 +1,4 @@
-package pers.contacts.core.security;
+package com.example.contacts.manager.security;
 
 import javax.annotation.Resource;
 
@@ -12,8 +12,8 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 
-import pers.contacts.entity.User;
-import pers.contacts.service.UserService;
+import com.example.contacts.entity.User;
+import com.example.contacts.service.UserService;
 
 public class ShiroDbRealm extends AuthorizingRealm {
 	@Resource

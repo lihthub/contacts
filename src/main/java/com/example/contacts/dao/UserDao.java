@@ -1,7 +1,7 @@
-package pers.contacts.dao;
+package com.example.contacts.dao;
 
-import pers.contacts.core.dao.BaseDao;
-import pers.contacts.entity.User;
+import com.example.contacts.entity.User;
+import com.example.contacts.manager.dao.BaseDao;
 
 public interface UserDao extends BaseDao<User, Long> {
 

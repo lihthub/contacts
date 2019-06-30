@@ -1,4 +1,4 @@
-package pers.contacts.core.i18n;
+package com.example.contacts.manager.i18n;
 
 import java.util.Locale;
 
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver;
 
-import pers.contacts.util.I18nUtils;
+import com.example.contacts.util.I18nUtils;
 
 /**
  * 国际化区域解析器

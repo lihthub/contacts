@@ -1,4 +1,4 @@
-package pers.contacts.web.controller;
+package com.example.contacts.web.controller;
 
 import java.io.IOException;
 import java.util.Date;
@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import pers.contacts.core.security.UserContext;
-import pers.contacts.entity.Linkman;
-import pers.contacts.service.LinkmanService;
-import pers.contacts.util.QRCodeUtils;
-import pers.contacts.util.VCardUtils;
-import pers.contacts.web.AjaxResult;
+import com.example.contacts.entity.Linkman;
+import com.example.contacts.manager.security.UserContext;
+import com.example.contacts.service.LinkmanService;
+import com.example.contacts.util.QRCodeUtils;
+import com.example.contacts.util.VCardUtils;
+import com.example.contacts.web.AjaxResult;
 
 /**
  * 联系人
